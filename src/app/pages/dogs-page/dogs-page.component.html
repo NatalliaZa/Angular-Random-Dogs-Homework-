@@ -1,0 +1,9 @@
+<img [src]="dogImageUrl">
+<button (click)="getRandomDog()">get random image</button>
+
+<div *ngFor="let dogImage of dogsImages">
+    <img [src]="dogImage">
+</div>
+
+
+<button (click)="getRandomDogs()">get dogs</button>

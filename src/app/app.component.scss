@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    height: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
+    border: 2px solid red;
+  
+    div {
+      width: 80px;
+      height: 100%;
+      margin: 0 20px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    :hover {
+      cursor: pointer;
+      background-color: bisque;
+    }
+  }
+  .main-layout {
+    border: 2px solid green;
+    height: 100%;
+  }
+  
+  .active {
+    background-color: indianred;
+  }
